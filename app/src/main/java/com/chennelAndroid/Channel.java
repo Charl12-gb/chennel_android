@@ -7,6 +7,12 @@ public class Channel {
 
     public Channel(){}
 
+    public Channel(String title, String description, String coverImage) {
+        this.title = title;
+        this.chaine = chaine;
+        this.coverImage = coverImage;
+    }
+
     public String getTitle() {
         return title;
     }
@@ -28,12 +34,6 @@ public class Channel {
     }
 
     public void setCoverImage(String coverImage) {
-        this.coverImage = coverImage;
-    }
-
-    public Channel(String title, String description, String coverImage) {
-        this.title = title;
-        this.chaine = chaine;
         this.coverImage = coverImage;
     }
 
